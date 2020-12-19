@@ -1,2 +1,2 @@
 # Vseznamus
-Preview short info from random wikipedia pages (up to 4)
+Preview short info from 4 random wikipedia pages
