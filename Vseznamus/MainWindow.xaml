@@ -5,14 +5,16 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:Vseznamus"
         mc:Ignorable="d"
-        Title="MainWindow" Height="679.98" Width="742.052" ResizeMode="CanMinimize">
+        Title="Vseznamus" Height="679.98" Width="742.052" ResizeMode="CanMinimize">
     <Grid>
-        <TextBox x:Name="InfoTextBox" Height="459" Margin="45,10,45,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" IsReadOnly="True" IsUndoEnabled="False" HorizontalScrollBarVisibility="Auto"/>
-        <Button x:Name="RandomizeButton" Content="Button" Margin="337,535,339,56" Click="RandomizeButton_Click"/>
-        <Button x:Name="Option1Button" Content="Button" Height="42" Margin="90,504,431,0" VerticalAlignment="Top" FontFamily="Calibri" Click="Option1Button_Click"/>
-        <Button x:Name="Option2Button" Content="Button" Height="42" Margin="431,504,90,0" VerticalAlignment="Top" FontFamily="Calibri" Click="Option2Button_Click"/>
-        <Button x:Name="Option4Button" Content="Button" Height="42" Margin="431,585,90,0" VerticalAlignment="Top" FontFamily="Calibri" Click="Option4Button_Click"/>
-        <Button x:Name="Option3Button" Content="Button" Height="42" Margin="90,585,431,0" VerticalAlignment="Top" FontFamily="Calibri" Click="Option3Button_Click"/>
+        <TextBox x:Name="InfoTextBox" Height="459" Margin="45,10,45,0" TextWrapping="Wrap" Text="Добро пожаловать в мир знаний! Для начала нажми на кнопку снизу" VerticalAlignment="Top" IsReadOnly="True" IsUndoEnabled="False" HorizontalScrollBarVisibility="Auto" FontFamily="Tahoma" FontSize="16"/>
+        <Button x:Name="RandomizeButton" Margin="330,530,330,45" Click="RandomizeButton_Click">
+            <Image Source="Image2.png" Stretch="Fill" Height="60" Width="60"/>
+        </Button>
+        <Button x:Name="Option1Button" Content="Button" Height="55" Margin="90,504,431,0" VerticalAlignment="Top" FontFamily="Calibri" Click="Option1Button_Click"/>
+        <Button x:Name="Option2Button" Content="Button" Height="55" Margin="431,504,90,0" VerticalAlignment="Top" FontFamily="Calibri" Click="Option2Button_Click"/>
+        <Button x:Name="Option3Button" Content="Button" Height="55" Margin="90,576,431,0" VerticalAlignment="Top" FontFamily="Calibri" Click="Option3Button_Click"/>
+        <Button x:Name="Option4Button" Content="Button" Height="55" Margin="431,576,90,0" VerticalAlignment="Top" FontFamily="Calibri" Click="Option4Button_Click"/>
 
     </Grid>
 </Window>
