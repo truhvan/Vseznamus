@@ -91,7 +91,6 @@ namespace Vseznamus
             response2.EnsureSuccessStatusCode();
             string responseBody2 = await response2.Content.ReadAsStringAsync();
             string responseBody2Unescaped = Regex.Unescape(responseBody2);
-            string secondLink = "https://" + lang + link + "/w/api.php?action=query&prop=extracts&pageids=" + ids[0] + ids[1] + ids[2] + ids[3] + "&explaintext=true&exintro=true&format=json";
             introJson = JObject.Parse(responseBody2Unescaped);
             GrayTheButtons();
             InfoTextBox.Text = responseBody2Unescaped;
